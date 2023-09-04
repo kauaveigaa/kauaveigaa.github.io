@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+
+#bic{
+    display: flex;
+    justify-content: flex-start;
+                                                                     
+}                                        
+
+
+#bic a{
+    margin-left: 20px;
+
+}
+
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#nav a{
+    margin-right: 20px;
+}
+
+#nav a.topimage{
+    width: 20px;
+    height: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.leftbottom {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.leftbottom ul {
+    display: flex;
+    justify-content: space-between; /*para que o titulos fiquem um ao lado do outro*/
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
+    padding: 16px; 
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+.rightbotoom {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+ 
+}
+
+.rightbotoom ul {
+    display: flex;
+    justify-content: space-between; /*para que o titulos fiquem um ao lado do outro*/
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
+    padding: 16px; 
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+a {
+    color: #000000;
+}
+
+#middle{
+    margin-top: 150px;
+}
+
+#logo{
+    text-align: center;
+}
+
+#searchbarcontainer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#searchbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #dadada;
+    border-radius: 1px;
+}

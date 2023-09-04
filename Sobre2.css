@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(212, 218, 223);
+}
+
+.lista ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.container .parte1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50px 200px ;
+  }
+  .parte1 div {
+    background-color:rgb(84, 75, 94);
+    padding: 20px;
+    border: 1px solid rgb(40, 36, 44);
+    border-radius: 15px;
+    color: rgb(235, 238, 240);
+}
+
+.container .parte2 {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: 50px 200px ;
+}
+
+.parte2 div {
+    background-color: rgb(84, 75, 94);
+    padding: 20px;
+    border: 1px solid rgb(40, 36, 44);
+    border-radius: 15px;
+    color: rgb(235, 238, 240);
+}

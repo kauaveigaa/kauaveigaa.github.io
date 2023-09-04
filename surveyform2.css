@@ -1,0 +1,33 @@
+.form {
+    height: 400px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:justify
+    
+}
+
+.form {
+    position: absolute;
+    background-color: rgb(235, 238, 240);
+    padding: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    background-color: rgb(84, 75, 94);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    color: rgb(29, 26, 32);
+}
