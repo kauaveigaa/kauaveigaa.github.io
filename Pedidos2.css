@@ -1,0 +1,17 @@
+.faleconosco {
+    background: url(https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80) fixed;
+    background-size: cover;   
+}
+
+.container{
+    background: rgba(0,0,0,.5);
+    border-radius: 10px;
+    color: white;
+}
+
+#white {
+    border: 5px solid rgba(31, 31, 31, 0.5);
+    border-radius: 15px;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+}
