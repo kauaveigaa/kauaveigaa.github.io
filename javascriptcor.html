@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>JS DOM paragraph style</title>
+<script>
+function js_style() {
+  // Obtenha o elemento de parágrafo pelo seu ID
+  var paragrafo = document.getElementById('text');
+
+  // Lista de cores possíveis
+  var cores = ['red', 'blue', 'green', 'orange', 'purple', 'black'];
+
+  // Tamanhos de fonte possíveis
+  var tamanhosFonte = ['16px', '20px', '24px', '28px', '32px'];
+
+  // Fontes de texto possíveis
+  var fontes = ['Arial, sans-serif', 'Verdana, sans-serif', 'Courier New, monospace', 'Georgia, serif'];
+
+  // Escolha aleatória de cores, tamanho da fonte e fonte
+  var corAleatoria = cores[Math.floor(Math.random() * cores.length)];
+  var tamanhoFonteAleatorio = tamanhosFonte[Math.floor(Math.random() * tamanhosFonte.length)];
+  var fonteAleatoria = fontes[Math.floor(Math.random() * fontes.length)];
+
+  // Altere o estilo do parágrafo
+  paragrafo.style.color = corAleatoria;
+  paragrafo.style.fontSize = tamanhoFonteAleatorio;
+  paragrafo.style.fontFamily = fonteAleatoria;
+}
+</script>
+</head> 
+<body>
+<p id="text">JavaScript Exercises - w3resource</p> 
+<div>
+<button id="jsstyle"
+onclick="js_style()">Style</button>
+</div>
+</body>
+</html>
